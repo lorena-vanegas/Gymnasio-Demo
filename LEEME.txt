@@ -1,0 +1,12 @@
+Las fotos de la plantilla se cargan desde Unsplash (fotos gratuitas, licencia Unsplash),
+por eso necesitas conexión a internet para verlas.
+
+Fotos usadas:
+  Portada ......... Samuel Girven
+  Nosotros ........ Sven Mieke
+  CTA ............. Sven Mieke
+  Entrenadores .... varios autores de Unsplash
+
+Para usar tus propias fotos: guárdalas en esta carpeta IMG y cambia la ruta en
+index.html (etiquetas <img src="...">) y en CSS/styles.css (.hero y .cta).
+Ejemplo:  src="IMG/entrenador-1.jpg"

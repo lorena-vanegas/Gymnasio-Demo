@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Impulso Gym — Entrenamiento funcional, pesas y clases grupales para que superes tus límites.">
+    <title>Impulso Gym | Entrena sin límites</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="header" id="header">
+    <div class="contenedor header-contenido">
+
+        <a href="#inicio" class="logo">IMPULSO<span>GYM</span></a>
+
+        <nav class="navegacion" id="navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#clases">Clases</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#planes">Planes</a>
+            <a href="#entrenadores">Equipo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a href="#contacto" class="btn btn-header">Clase gratis</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="inicio">
+        <div class="contenedor hero-contenido">
+            <p class="etiqueta">FUERZA · DISCIPLINA · RESULTADOS</p>
+            <h1>Entrena hoy,<br><span>supera tus límites.</span></h1>
+            <p class="hero-texto">
+                Equipos de última generación, entrenadores certificados y una comunidad
+                que te empuja a dar lo mejor de ti, todos los días.
+            </p>
+            <div class="hero-botones">
+                <a href="#planes" class="btn">Ver planes</a>
+                <a href="#clases" class="btn btn-borde">Conoce las clases</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ESTADÍSTICAS ==================== -->
+    <section class="estadisticas">
+        <div class="contenedor estadisticas-grid">
+            <div class="estadistica">
+                <strong class="contador" data-objetivo="1200">0</strong><span>+</span>
+                <p>Miembros activos</p>
+            </div>
+            <div class="estadistica">
+                <strong class="contador" data-objetivo="25">0</strong><span>+</span>
+                <p>Clases semanales</p>
+            </div>
+            <div class="estadistica">
+                <strong class="contador" data-objetivo="12">0</strong>
+                <p>Entrenadores certificados</p>
+            </div>
+            <div class="estadistica">
+                <strong class="contador" data-objetivo="18">0</strong><span>h</span>
+                <p>Abierto cada día</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== NOSOTROS ==================== -->
+    <section class="seccion" id="nosotros">
+        <div class="contenedor nosotros-grid">
+            <div class="nosotros-imagen revelar">
+                <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=900&q=80&auto=format&fit=crop" alt="Personas entrenando en Impulso Gym" onerror="this.parentElement.classList.add('sin-imagen'); this.remove();">
+                <div class="nosotros-badge">
+                    <strong>10</strong>
+                    <span>años formando<br>atletas</span>
+                </div>
+            </div>
+            <div class="nosotros-texto revelar">
+                <p class="etiqueta">SOBRE NOSOTROS</p>
+                <h2>Más que un gimnasio, <span>una comunidad.</span></h2>
+                <p>
+                    En Impulso Gym creemos que cada persona puede transformar su cuerpo y su mente.
+                    Diseñamos programas para todos los niveles, desde quien da su primer paso
+                    hasta el atleta que busca su próximo récord.
+                </p>
+                <ul class="lista-check">
+                    <li>Zona de pesas libres y máquinas de última generación</li>
+                    <li>Valoración física y plan personalizado al inscribirte</li>
+                    <li>Duchas, lockers y parqueadero para miembros</li>
+                    <li>App para reservar clases y seguir tu progreso</li>
+                </ul>
+                <a href="#contacto" class="btn">Agenda tu visita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CLASES ==================== -->
+    <section class="seccion seccion-oscura" id="clases">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta">PROGRAMAS</p>
+                <h2>Encuentra tu <span>entrenamiento.</span></h2>
+            </div>
+
+            <div class="clases-grid">
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
+                    </div>
+                    <h3>Musculación</h3>
+                    <p>Gana fuerza y masa muscular con rutinas guiadas y progresión medible.</p>
+                    <span class="clase-nivel">Todos los niveles</span>
+                </article>
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+                    </div>
+                    <h3>Funcional / HIIT</h3>
+                    <p>Intervalos de alta intensidad para quemar calorías y mejorar tu resistencia.</p>
+                    <span class="clase-nivel">Intermedio</span>
+                </article>
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l4-8h5l3 8M10 9l2 8"/></svg>
+                    </div>
+                    <h3>Spinning</h3>
+                    <p>Pedalea al ritmo de la música en sesiones cardiovasculares llenas de energía.</p>
+                    <span class="clase-nivel">Todos los niveles</span>
+                </article>
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="4" r="2"/><path d="M12 6v6M6 9l6 3 6-3M8 21l4-9 4 9"/></svg>
+                    </div>
+                    <h3>Yoga &amp; Movilidad</h3>
+                    <p>Mejora tu flexibilidad, postura y respiración para rendir y recuperarte mejor.</p>
+                    <span class="clase-nivel">Principiante</span>
+                </article>
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><path d="M7 4h7a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4H9l-2 5V4z"/></svg>
+                    </div>
+                    <h3>Boxeo Fit</h3>
+                    <p>Técnica de golpeo y acondicionamiento para liberar estrés y ganar potencia.</p>
+                    <span class="clase-nivel">Intermedio</span>
+                </article>
+                <article class="clase revelar">
+                    <div class="clase-icono">
+                        <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-11a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 6.5-7 11-7 11z"/></svg>
+                    </div>
+                    <h3>Entrenamiento personal</h3>
+                    <p>Sesiones 1 a 1 con un coach enfocado 100% en tus objetivos.</p>
+                    <span class="clase-nivel">A tu medida</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== HORARIOS ==================== -->
+    <section class="seccion" id="horarios">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta">HORARIOS</p>
+                <h2>Planea tu <span>semana.</span></h2>
+                <p class="subtitulo">Gimnasio abierto de lunes a viernes 5:00 a.m. – 11:00 p.m. · Sábados y domingos 7:00 a.m. – 5:00 p.m.</p>
+            </div>
+
+            <div class="tabs" role="tablist">
+                <button class="tab activo" data-dia="lunes" role="tab">Lun</button>
+                <button class="tab" data-dia="martes" role="tab">Mar</button>
+                <button class="tab" data-dia="miercoles" role="tab">Mié</button>
+                <button class="tab" data-dia="jueves" role="tab">Jue</button>
+                <button class="tab" data-dia="viernes" role="tab">Vie</button>
+                <button class="tab" data-dia="sabado" role="tab">Sáb</button>
+            </div>
+
+            <div class="horario" id="horario">
+                <!-- Se llena con JavaScript (ver JS/script.js → objeto "horarios") -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PLANES ==================== -->
+    <section class="seccion seccion-oscura" id="planes">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta">MEMBRESÍAS</p>
+                <h2>Elige tu <span>plan.</span></h2>
+
+                <div class="switch-planes">
+                    <span class="switch-texto activo" id="textoMensual">Mensual</span>
+                    <button class="switch" id="switchPlanes" aria-label="Cambiar a pago anual"><span></span></button>
+                    <span class="switch-texto" id="textoAnual">Anual <em>-20%</em></span>
+                </div>
+            </div>
+
+            <div class="planes-grid">
+                <article class="plan revelar">
+                    <h3>Básico</h3>
+                    <p class="plan-precio">$<span class="precio" data-mensual="89000" data-anual="71000">89.000</span><small>/mes</small></p>
+                    <ul>
+                        <li>Acceso a zona de pesas y cardio</li>
+                        <li>Horario de 5:00 a.m. a 4:00 p.m.</li>
+                        <li>Valoración física inicial</li>
+                        <li class="no">Clases grupales</li>
+                        <li class="no">Entrenador personal</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-borde">Empezar</a>
+                </article>
+
+                <article class="plan plan-destacado revelar">
+                    <span class="plan-cinta">Más popular</span>
+                    <h3>Pro</h3>
+                    <p class="plan-precio">$<span class="precio" data-mensual="129000" data-anual="103000">129.000</span><small>/mes</small></p>
+                    <ul>
+                        <li>Acceso ilimitado todo el horario</li>
+                        <li>Todas las clases grupales</li>
+                        <li>Valoración física cada mes</li>
+                        <li>Acceso a la app de rutinas</li>
+                        <li class="no">Entrenador personal</li>
+                    </ul>
+                    <a href="#contacto" class="btn">Empezar</a>
+                </article>
+
+                <article class="plan revelar">
+                    <h3>Élite</h3>
+                    <p class="plan-precio">$<span class="precio" data-mensual="219000" data-anual="175000">219.000</span><small>/mes</small></p>
+                    <ul>
+                        <li>Todo lo del plan Pro</li>
+                        <li>8 sesiones con entrenador personal</li>
+                        <li>Plan de alimentación</li>
+                        <li>Invitado gratis 2 veces al mes</li>
+                        <li>Locker fijo</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-borde">Empezar</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CALCULADORA IMC ==================== -->
+    <section class="seccion" id="imc">
+        <div class="contenedor imc-grid">
+            <div class="revelar">
+                <p class="etiqueta">HERRAMIENTA</p>
+                <h2>Calcula tu <span>IMC.</span></h2>
+                <p>
+                    El índice de masa corporal es un punto de partida para conocer tu estado actual.
+                    Nuestros entrenadores te ayudan a interpretarlo junto con tu valoración física.
+                </p>
+            </div>
+
+            <form class="imc-form revelar" id="formImc">
+                <div class="campo-doble">
+                    <label>Peso (kg)
+                        <input type="number" id="peso" min="20" max="300" step="0.1" placeholder="70" required>
+                    </label>
+                    <label>Estatura (cm)
+                        <input type="number" id="estatura" min="100" max="250" step="0.1" placeholder="170" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-bloque">Calcular</button>
+                <div class="imc-resultado" id="imcResultado" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== ENTRENADORES ==================== -->
+    <section class="seccion seccion-oscura" id="entrenadores">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta">EQUIPO</p>
+                <h2>Nuestros <span>entrenadores.</span></h2>
+            </div>
+
+            <div class="entrenadores-grid">
+                <article class="entrenador revelar">
+                    <div class="entrenador-foto">
+                        <img src="https://images.unsplash.com/photo-1704223523169-52feeed90365?w=600&h=800&q=80&auto=format&fit=crop" alt="Entrenador Andrés" onerror="this.remove()">
+                        <span class="inicial">A</span>
+                    </div>
+                    <h3>Andrés Morales</h3>
+                    <p>Fuerza y musculación</p>
+                </article>
+                <article class="entrenador revelar">
+                    <div class="entrenador-foto">
+                        <img src="https://images.unsplash.com/photo-1708011108776-45ad9e625269?w=600&h=800&q=80&auto=format&fit=crop" alt="Entrenadora Valentina" onerror="this.remove()">
+                        <span class="inicial">V</span>
+                    </div>
+                    <h3>Valentina Ríos</h3>
+                    <p>Funcional y HIIT</p>
+                </article>
+                <article class="entrenador revelar">
+                    <div class="entrenador-foto">
+                        <img src="https://images.unsplash.com/photo-1693214099505-aadb39c60c90?w=600&h=800&q=80&auto=format&fit=crop" alt="Entrenador Camilo" onerror="this.remove()">
+                        <span class="inicial">C</span>
+                    </div>
+                    <h3>Camilo Herrera</h3>
+                    <p>Boxeo y acondicionamiento</p>
+                </article>
+                <article class="entrenador revelar">
+                    <div class="entrenador-foto">
+                        <img src="https://images.unsplash.com/photo-1683848644087-c3cb69b77d4f?w=600&h=800&q=80&auto=format&fit=crop" alt="Entrenadora Laura" onerror="this.remove()">
+                        <span class="inicial">L</span>
+                    </div>
+                    <h3>Laura Gómez</h3>
+                    <p>Yoga y movilidad</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIOS ==================== -->
+    <section class="seccion" id="testimonios">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <p class="etiqueta">TESTIMONIOS</p>
+                <h2>Lo que dicen <span>nuestros miembros.</span></h2>
+                <p class="subtitulo">Textos de ejemplo — reemplázalos por opiniones reales de tus clientes.</p>
+            </div>
+
+            <div class="testimonios-grid">
+                <blockquote class="testimonio revelar">
+                    <p>“Aquí encontré la constancia que no tenía. Los entrenadores siempre están pendientes de tu técnica.”</p>
+                    <footer>— Nombre del cliente · Plan Pro</footer>
+                </blockquote>
+                <blockquote class="testimonio revelar">
+                    <p>“Las clases de HIIT son increíbles, el ambiente te motiva a volver cada día.”</p>
+                    <footer>— Nombre del cliente · Plan Básico</footer>
+                </blockquote>
+                <blockquote class="testimonio revelar">
+                    <p>“Con el plan de alimentación y el entrenador personal logré mis metas en menos tiempo.”</p>
+                    <footer>— Nombre del cliente · Plan Élite</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="cta">
+        <div class="contenedor cta-contenido">
+            <h2>Tu primera clase es <span>gratis.</span></h2>
+            <p>Ven, conoce las instalaciones y entrena con nosotros sin compromiso.</p>
+            <a href="#contacto" class="btn btn-claro">Reservar ahora</a>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACTO ==================== -->
+    <section class="seccion seccion-oscura" id="contacto">
+        <div class="contenedor contacto-grid">
+            <div class="contacto-info revelar">
+                <p class="etiqueta">CONTACTO</p>
+                <h2>Empieza <span>hoy.</span></h2>
+                <p>Déjanos tus datos y te contactamos para agendar tu clase de prueba.</p>
+                <ul class="datos">
+                    <li><strong>Dirección</strong> Calle 00 # 00-00, Tu ciudad</li>
+                    <li><strong>Teléfono</strong> +57 300 000 0000</li>
+                    <li><strong>Correo</strong> hola@impulsogym.com</li>
+                </ul>
+            </div>
+
+            <form class="formulario revelar" id="formContacto" novalidate>
+                <label>Nombre completo
+                    <input type="text" name="nombre" required>
+                </label>
+                <div class="campo-doble">
+                    <label>Teléfono
+                        <input type="tel" name="telefono" required>
+                    </label>
+                    <label>Correo
+                        <input type="email" name="correo" required>
+                    </label>
+                </div>
+                <label>Plan de interés
+                    <select name="plan">
+                        <option>Básico</option>
+                        <option selected>Pro</option>
+                        <option>Élite</option>
+                        <option>Aún no sé</option>
+                    </select>
+                </label>
+                <label>Mensaje
+                    <textarea name="mensaje" rows="4" placeholder="Cuéntanos tu objetivo"></textarea>
+                </label>
+                <button type="submit" class="btn btn-bloque">Enviar</button>
+                <p class="form-mensaje" id="formMensaje" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+    <div class="contenedor footer-grid">
+        <div>
+            <a href="#inicio" class="logo">IMPULSO<span>GYM</span></a>
+            <p>Entrena sin límites.</p>
+        </div>
+        <nav class="footer-links">
+            <a href="#clases">Clases</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#planes">Planes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="redes">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+        </div>
+    </div>
+    <p class="copy">© <span id="anio"></span> Impulso Gym. Todos los derechos reservados.</p>
+</footer>
+
+<a href="#inicio" class="subir" id="subir" aria-label="Volver arriba">↑</a>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
